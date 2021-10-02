@@ -1,3 +1,3 @@
-import RandomFoxImage from "./randomFoxImage";
+import RandomFoxImage from "./random-fox-image";
 
 export const data_contributor = [RandomFoxImage];
