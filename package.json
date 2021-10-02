@@ -2,6 +2,7 @@
   "name": "random-call-api",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://akimabs.github.io/random-call-api",
   "dependencies": {
     "@craco/craco": "^6.3.0",
     "@testing-library/jest-dom": "^5.11.4",
