@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/random-call-api/static/css/main.90c9bfdd.chunk.css",
-    "main.js": "/random-call-api/static/js/main.facb2662.chunk.js",
-    "main.js.map": "/random-call-api/static/js/main.facb2662.chunk.js.map",
-    "runtime-main.js": "/random-call-api/static/js/runtime-main.0f48f8d1.js",
-    "runtime-main.js.map": "/random-call-api/static/js/runtime-main.0f48f8d1.js.map",
-    "static/js/2.9a006d35.chunk.js": "/random-call-api/static/js/2.9a006d35.chunk.js",
-    "static/js/2.9a006d35.chunk.js.map": "/random-call-api/static/js/2.9a006d35.chunk.js.map",
-    "static/js/3.384fd589.chunk.js": "/random-call-api/static/js/3.384fd589.chunk.js",
-    "static/js/3.384fd589.chunk.js.map": "/random-call-api/static/js/3.384fd589.chunk.js.map",
+    "main.css": "/random-call-api/static/css/main.05ac4561.chunk.css",
+    "main.js": "/random-call-api/static/js/main.cf794f01.chunk.js",
+    "main.js.map": "/random-call-api/static/js/main.cf794f01.chunk.js.map",
+    "runtime-main.js": "/random-call-api/static/js/runtime-main.9ce3e3e1.js",
+    "runtime-main.js.map": "/random-call-api/static/js/runtime-main.9ce3e3e1.js.map",
+    "static/js/2.67f0a4ae.chunk.js": "/random-call-api/static/js/2.67f0a4ae.chunk.js",
+    "static/js/2.67f0a4ae.chunk.js.map": "/random-call-api/static/js/2.67f0a4ae.chunk.js.map",
+    "static/js/3.f0b7c179.chunk.js": "/random-call-api/static/js/3.f0b7c179.chunk.js",
+    "static/js/3.f0b7c179.chunk.js.map": "/random-call-api/static/js/3.f0b7c179.chunk.js.map",
     "index.html": "/random-call-api/index.html",
-    "static/css/main.90c9bfdd.chunk.css.map": "/random-call-api/static/css/main.90c9bfdd.chunk.css.map",
-    "static/js/2.9a006d35.chunk.js.LICENSE.txt": "/random-call-api/static/js/2.9a006d35.chunk.js.LICENSE.txt",
+    "static/css/main.05ac4561.chunk.css.map": "/random-call-api/static/css/main.05ac4561.chunk.css.map",
+    "static/js/2.67f0a4ae.chunk.js.LICENSE.txt": "/random-call-api/static/js/2.67f0a4ae.chunk.js.LICENSE.txt",
     "static/media/github.b5d4c591.svg": "/random-call-api/static/media/github.b5d4c591.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0f48f8d1.js",
-    "static/js/2.9a006d35.chunk.js",
-    "static/css/main.90c9bfdd.chunk.css",
-    "static/js/main.facb2662.chunk.js"
+    "static/js/runtime-main.9ce3e3e1.js",
+    "static/js/2.67f0a4ae.chunk.js",
+    "static/css/main.05ac4561.chunk.css",
+    "static/js/main.cf794f01.chunk.js"
   ]
 }
