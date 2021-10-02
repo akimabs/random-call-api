@@ -1,11 +1,17 @@
 import "./App.css";
-import { Header, Card } from "./components";
+import { Header, MasonryWrapper } from "./components";
+import { data_contributor } from "./contributor";
 
 function App() {
   return (
-    <div className="mx-0 xl:mx-40 font-body">
+    <div className="mx-0 xl:mx-20 font-body">
       <Header />
-      <Card />
+      <MasonryWrapper>
+        {data_contributor.map((res) => {
+          const Component = res;
+          return <Component />;
+        })}
+      </MasonryWrapper>
     </div>
   );
 }

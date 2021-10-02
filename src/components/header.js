@@ -7,7 +7,7 @@ export default function Header(props) {
       <div className="flex items-baseline ">
         <a className="flex-auto" href="/">
           <h1 className="my-2 text-4xl font-bold font-sans px-4 font-bold">
-            Random call API
+            Random Call APIs
           </h1>
         </a>
         <div className="">
