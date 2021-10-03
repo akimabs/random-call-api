@@ -4,7 +4,7 @@ import github from "../assets/github.svg";
 export default function Header(props) {
   return (
     <div className="mx-4 my-8">
-      <div className="flex items-baseline ">
+      <div className="flex items-baseline">
         <a className="flex-auto" href="/random-call-api">
           <h1 className="my-2 text-4xl font-bold font-sans px-4 font-bold">
             Random Call APIs

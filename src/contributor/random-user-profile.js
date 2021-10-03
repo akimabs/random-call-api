@@ -29,7 +29,7 @@ const RandomUserProfile = () => {
         username: "ahmadkhairul",
         avatar: "https://avatars.githubusercontent.com/u/57492891?v=4",
         apiUrl: "https://randomuser.me/api/",
-        apiName: "https://randomuser.me/",
+        apiName: "random-user-profile",
         apiDescription: "generating random user data. Like Lorem Ipsum, but for people.",
       }}
     >
