@@ -7,14 +7,15 @@ import RandomPicsumImage from "./random-picsum-image";
 import RandomGrayscaleImage from "./random-grayscale-image";
 import RandomLoremPixelImage from "./random-lorem-pixel-image";
 import RandomAnswerImage from "./random-answer-image";
+
 export const data_contributor = [
-	RandomFoxImage,
-	RandomCatImage,
-	RandomTechImages,
-	RandomPokemonImage,
-	RandomUnsplashImage,
-	RandomPicsumImage,
-	RandomGrayscaleImage,
-	RandomLoremPixelImage,
-	RandomAnswerImage,
+  RandomFoxImage,
+  RandomCatImage,
+  RandomTechImages,
+  RandomPokemonImage,
+  RandomUnsplashImage,
+  RandomPicsumImage,
+  RandomGrayscaleImage,
+  RandomLoremPixelImage,
+  RandomAnswerImage,
 ];
