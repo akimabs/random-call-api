@@ -17,7 +17,7 @@ const RandomPicsumImage = () => {
       <img
         className="rounded-sm h-200 w-200 pt-2"
         src="https://picsum.photos/200"
-        alt="random image"
+        alt="random-pict"
       />
     </Card>
   );

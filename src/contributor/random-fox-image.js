@@ -22,7 +22,7 @@ const RandomFoxImage = () => {
   return (
     <Card
       data={{
-        username: "Akimabs",
+        username: "akimabs",
         avatar: "https://avatars.githubusercontent.com/u/46390089?v=4",
         apiUrl: "https://randomfox.ca/floof/",
         apiName: "random-fox",
