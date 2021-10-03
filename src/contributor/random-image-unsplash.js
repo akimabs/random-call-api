@@ -6,7 +6,7 @@ const RandomImageUnsplash = () => {
       data={{
         username: "Risal Walangadi",
         avatar: "https://avatars.githubusercontent.com/u/32890714?v=4",
-        apiUrl: "https://random.responsiveimages.io/",
+        apiUrl: "https://source.unsplash.com",
         apiName: "random-image-unsplash",
         apiDescription: "Random image from unsplash",
       }}
