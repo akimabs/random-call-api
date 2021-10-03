@@ -1,7 +1,7 @@
 export default function Card({ data, children }) {
   return (
     <div className="mx-4 my-8 rounded-md p-4 bg-gray-10	 md:px-4">
-      <a href={"https://github.com/" + data.avatar} target="blank">
+      <a href={"https://github.com/" + data.username} target="blank">
         <div className="inline-flex items-center hover:bg-blue-100 p-2 rounded-md cursor-pointer">
           <img
             className="rounded-full h-8 w-8"
