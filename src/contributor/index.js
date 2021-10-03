@@ -5,7 +5,7 @@ import RandomPokemonImage from './random-pokemon-image';
 import RandomUnsplashImage from './random-unsplash-image';
 import RandomPicsumImage from './random-picsum-image';
 import RandomGrayscaleImage from './random-grayscale-image';
-
+import RandomLoremPixelImage from './random-lorem-pixel-image';
 export const data_contributor = [
   RandomFoxImage,
   RandomCatImage,
@@ -14,4 +14,5 @@ export const data_contributor = [
   RandomUnsplashImage,
   RandomPicsumImage,
   RandomGrayscaleImage,
+  RandomLoremPixelImage,
 ];
