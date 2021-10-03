@@ -6,6 +6,9 @@ import RandomUnsplashImage from "./random-unsplash-image";
 import RandomPicsumImage from "./random-picsum-image";
 import RandomGrayscaleImage from "./random-grayscale-image";
 import RandomImageUnsplash from "./random-image-unsplash";
+import RandomLoremPixelImage from "./random-lorem-pixel-image";
+import RandomAnswerImage from "./random-answer-image";
+import RandomDogImage from "./random-dog-image";
 
 export const data_contributor = [
   RandomFoxImage,
@@ -16,4 +19,7 @@ export const data_contributor = [
   RandomPicsumImage,
   RandomGrayscaleImage,
   RandomImageUnsplash,
+  RandomLoremPixelImage,
+  RandomAnswerImage,
+  RandomDogImage,
 ];
