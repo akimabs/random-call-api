@@ -3,26 +3,29 @@ import axios from "axios";
 // components
 import { Card } from "../components";
 // baseurl api's
-const BASE_URL = 'https://aws.random.cat/meow'
+const BASE_URL = "https://aws.random.cat/meow"
 
 const RandomCatImage = () => {
+  const [dispatching, setDispatching] = useState(false)
   const [randomImg, setRandomImg] = useState('')
 
-  const getRandomCat = () => {
-    axios.get(BASE_URL)
-    .then(response =>{
-      setRandomImg(response?.data?.file)
-    })
-    .catch(error =>{
-      console.log("erroe when fetch", error)
-    })
+  const getRandomCat = async () => {
+    setDispatching(true)
+    const response = await axios.get(BASE_URL);
+    if (response.status !== 200) {
+      throw new Error("Fetching err");
+    }
+    setRandomImg(response?.data?.file)
+    setDispatching(false)
   }
 
-  useEffect(()=>{ 
-    getRandomCat() 
+  useEffect(()=> { 
+    getRandomCat();
+    return () => {
+      setDispatching(false)
+    }
   },[])
   
-
   return (
     <Card
       data={{
@@ -33,11 +36,17 @@ const RandomCatImage = () => {
         apiDescription: "Random Api for displaying cat Image",
       }}
     >
-      <img
-        className="rounded-sm pt-2"
-        src={randomImg}
-        alt="techImage"
-      />
+      {
+        dispatching ? (
+          <p className="text-m my-3 text-center">Loading...</p>
+        ) : (
+          <img
+            className="rounded-sm pt-2"
+            src={randomImg}
+            alt="techImage"
+          />
+        )
+      }
     </Card>
   );
 };
