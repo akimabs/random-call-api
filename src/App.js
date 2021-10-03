@@ -7,9 +7,9 @@ function App() {
     <div className="mx-0 xl:mx-20 font-body">
       <Header />
       <MasonryWrapper>
-        {data_contributor.map((res) => {
+        {data_contributor.map((res, index) => {
           const Component = res;
-          return <Component />;
+          return <Component key={index} />;
         })}
       </MasonryWrapper>
     </div>
