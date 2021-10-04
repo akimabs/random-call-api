@@ -5,8 +5,10 @@ import RandomPokemonImage from "./random-pokemon-image";
 import RandomUnsplashImage from "./random-unsplash-image";
 import RandomPicsumImage from "./random-picsum-image";
 import RandomGrayscaleImage from "./random-grayscale-image";
+import RandomImageUnsplash from "./random-image-unsplash";
 import RandomLoremPixelImage from "./random-lorem-pixel-image";
 import RandomAnswerImage from "./random-answer-image";
+import RandomDogImage from "./random-dog-image";
 import RandomDogImage from './random-dog-image';
 import RandomMemeImage from "./random-meme-image";
 import RandomUserProfile from './random-user-profile';
@@ -20,6 +22,7 @@ export const data_contributor = [
   RandomPicsumImage,
   RandomUserProfile,
   RandomGrayscaleImage,
+  RandomImageUnsplash,
   RandomLoremPixelImage,
   RandomAnswerImage,
   RandomDogImage,
