@@ -12,39 +12,30 @@ const generateRandomIndex = dataLength => {
 
 const RandomKanji = () => {
   const [currentKanji, setCurrentKanji] = useState('');
-  const [fetching, setFetching] = useState(false);
 
 
   const getKanji = async () => {
-    setFetching(true);
-
     try {
       const { data: allKanji, status } = await axios.get(`${API_URL}/all`)
       if (status == 200) {
         getKanjiInformation(allKanji[generateRandomIndex(allKanji?.length)]);
-        setFetching(false);
       }
     } catch (error) {
-      setFetching(false);
+      console.error(error);
     }
   }
 
   const getKanjiInformation = async kanji => {
-    setFetching(true);
     try {
       const { data: kanjiInformation } = await axios.get(`${API_URL}/${kanji}`);
-      // const { data: kanjiInformation } = await axios.get(`${API_URL}/斦`);
 
       setCurrentKanji(kanjiInformation);
-      setFetching(false);
     } catch (error) {
       console.error(error);
-      setFetching(false);
     }
   }
 
   useEffect(() => getKanji(), []);
-  useEffect(() => console.log(currentKanji), [currentKanji]);
 
   return (
     <Card 
@@ -70,10 +61,6 @@ const RandomKanji = () => {
         }}
         />
       }
-      <button onClick={getKanji}>
-      {/* <button onClick={getKanjiInformation}> */}
-        Refetch
-      </button>
     </Card>
   );
 }
@@ -81,8 +68,6 @@ const RandomKanji = () => {
 export default RandomKanji;
 
 const KanjiCard = ({ data }) => {
-  useEffect(() => console.log(data), [data]);
-
   return (
     <div className="w-full flex flex-col space-y-4 items-center">
       <div id="kanji" className="h-48 lg:h-48 w-full 2xl:h-64 bg-gray-200 flex items-center justify-center relative rounded">
