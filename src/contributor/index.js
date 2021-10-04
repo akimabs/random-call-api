@@ -12,6 +12,7 @@ import RandomDogImage from "./random-dog-image";
 import RandomMemeImage from "./random-meme-image";
 import RandomUserProfile from "./random-user-profile";
 import RandomPixelMonstersImage from "./random-pixel-monsters-image";
+import RandomAiArt from "./random-ai-art";
 
 export const data_contributor = [
   RandomFoxImage,
@@ -28,4 +29,5 @@ export const data_contributor = [
   RandomDogImage,
   RandomMemeImage,
   RandomPixelMonstersImage,
+  RandomAiArt,
 ];
