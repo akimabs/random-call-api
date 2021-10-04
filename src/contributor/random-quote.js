@@ -24,11 +24,11 @@ const RandomQuotesApi = () => {
 	return (
 		<Card
 			data={{
-				username: 'Sigit Wahyudi',
+				username: 'sgitwhyd',
 				avatar: 'https://avatars.githubusercontent.com/u/44634025?v=4',
 				apiUrl: 'https://api.quotable.io/random',
-				apiName: 'random quotes api',
-				apiDescription: 'free random quotes API',
+				apiName: 'Quotable',
+				apiDescription: 'open source quotations API',
 			}}>
 			<div className='quote-wrapper mt-3'>
 				<div class='w-full mb-5'>
