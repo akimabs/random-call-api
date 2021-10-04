@@ -1,4 +1,3 @@
-import { data } from 'autoprefixer';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
@@ -110,7 +109,7 @@ const KanjiCard = ({ data }) => {
             {
               data.meanings && data.meanings.map((reading, idx) => (
                 <div key={idx} className="py-1 px-2 bg-blue-100 flex items-center justify-center rounded">
-                  <span className="text-sm">{reading}</span>
+                  <span className="text-sm text-center">{reading}</span>
                 </div>
               ))
             }
