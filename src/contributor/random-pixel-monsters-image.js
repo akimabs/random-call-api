@@ -13,7 +13,7 @@ const RandomPixelMonstersImage = () => {
       }}
     >
       <img
-        className="rounded-sm pt-2 rounded mx-auto d-block"
+        className="pt-2 rounded mx-auto d-block"
         src="https://app.pixelencounter.com/api/basic/monsters/random/png?size=100"
         alt="monsters"
       />
