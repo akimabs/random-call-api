@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 import { Card } from "../components";
 
@@ -11,7 +11,7 @@ const generateRandomIndex = (dataLength) => {
 const RandomKanji = () => {
   const [currentKanji, setCurrentKanji] = useState("");
 
-  const getKanji = async () => {
+  const getKanji = useCallback(async () => {
     try {
       const { data: allKanji, status } = await axios.get(`${API_URL}/all`);
       if (status === 200) {
@@ -20,7 +20,7 @@ const RandomKanji = () => {
     } catch (error) {
       console.error(error);
     }
-  };
+  }, []);
 
   const getKanjiInformation = async (kanji) => {
     try {
@@ -32,7 +32,7 @@ const RandomKanji = () => {
     }
   };
 
-  useEffect(() => getKanji(), []);
+  useEffect(() => getKanji(), [getKanji]);
 
   return (
     <Card
