@@ -11,6 +11,7 @@ import RandomAnswerImage from "./random-answer-image";
 import RandomDogImage from "./random-dog-image";
 import RandomMemeImage from "./random-meme-image";
 import RandomUserProfile from "./random-user-profile";
+import RandomKanji from "./random-kanji";
 import RandomPixelMonstersImage from "./random-pixel-monsters-image";
 import RandomAiArtImage from "./random-ai-art";
 
@@ -28,6 +29,7 @@ export const data_contributor = [
   RandomAnswerImage,
   RandomDogImage,
   RandomMemeImage,
+  RandomKanji,
   RandomPixelMonstersImage,
   RandomAiArtImage,
 ];
