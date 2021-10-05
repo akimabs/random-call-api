@@ -26,3 +26,6 @@ const RandomPokemonImage = () => {
 };
 
 export default RandomPokemonImage;
+export {
+  randomInteger
+}
