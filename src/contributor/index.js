@@ -15,6 +15,7 @@ import RandomKanji from "./random-kanji";
 import RandomPixelMonstersImage from "./random-pixel-monsters-image";
 import RandomAiArtImage from "./random-ai-art";
 import RandomQuotesApi from "./random-quote";
+import RandomTestimonial from "./random-testimonial";
 
 export const data_contributor = [
   RandomFoxImage,
@@ -34,4 +35,5 @@ export const data_contributor = [
   RandomPixelMonstersImage,
   RandomAiArtImage,
   RandomQuotesApi,
+  RandomTestimonial
 ];
