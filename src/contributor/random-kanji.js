@@ -123,7 +123,7 @@ const KanjiCard = ({ data }) => {
                   key={idx}
                   className="py-1 px-2 bg-blue-100 flex items-center justify-center rounded"
                 >
-                  <span className="text-sm">{reading}</span>
+                  <span className="text-sm text-center">{reading}</span>
                 </div>
               ))}
           </div>
