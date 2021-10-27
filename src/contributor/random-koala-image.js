@@ -9,11 +9,10 @@ const RandomKoalaImage = () => {
     useEffect(() => {
         axios
             .get(BASE_URL)
-            .then(res => setData(res.data))
+            .then(res => setData(res.data.link))
             .catch(err => console.log(err))
     }, [])
 
-    console.log(data)
     return (
         <Card data={{
             username: "mfauzanamzar",
@@ -25,7 +24,7 @@ const RandomKoalaImage = () => {
             {data && (
                 <img
                     className="rounded-sm h-200 w-200 pt-2"
-                    src={data.link}
+                    src={data}
                     alt="koalaimage"
                 />
             )}
