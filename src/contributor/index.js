@@ -19,6 +19,7 @@ import RandomTechImages from "./random-tech-images";
 import RandomUnsplashImage from "./random-unsplash-image";
 import RandomUserProfile from "./random-user-profile";
 import RandomCartoonChar from "./random-cartoon-char";
+import RandomMeowFacts from "./random-cat-facts";
 
 export const data_contributor = [
   RandomFoxImage,
@@ -42,4 +43,5 @@ export const data_contributor = [
   RandomRobotImage,
   RandomFoodImage,
   RandomCartoonChar,
+  RandomMeowFacts,
 ];
