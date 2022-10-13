@@ -18,6 +18,7 @@ import RandomRobotImage from "./random-robot-image";
 import RandomTechImages from "./random-tech-images";
 import RandomUnsplashImage from "./random-unsplash-image";
 import RandomUserProfile from "./random-user-profile";
+import RandomCartoonChar from "./random-cartoon-char";
 import RandomMeowFacts from "./random-cat-facts";
 
 export const data_contributor = [
@@ -41,5 +42,6 @@ export const data_contributor = [
   RandomQuotesApi,
   RandomRobotImage,
   RandomFoodImage,
+  RandomCartoonChar,
   RandomMeowFacts,
 ];
